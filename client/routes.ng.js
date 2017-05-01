@@ -1,19 +1,19 @@
-angular.module("vegasParties").config(
+angular.module("elninoMeteorDemo").config(
   function($urlRouterProvider, $stateProvider, $locationProvider){
 
     $locationProvider.html5Mode(true);
 
     $stateProvider
-      .state('parties', {
-        url: '/parties',
-        templateUrl: 'client/parties/views/parties-list.ng.html',
-        controller: 'PartiesListCtrl'
+      .state('todos', {
+        url: '/todos',
+        templateUrl: 'client/todos/views/todo-list.ng.html',
+        controller: 'TodoListCtrl'
       })
       .state('partyDetails', {
-        url: '/parties/:partyId',
-        templateUrl: 'client/parties/views/party-details.ng.html',
-        controller: 'PartyDetailsCtrl'
+        url: '/todos/:todoId',
+        templateUrl: 'client/todos/views/todo-details.ng.html',
+        controller: 'TodoDetailsCtrl'
       });
 
-    $urlRouterProvider.otherwise("/parties");
+    $urlRouterProvider.otherwise("/todos");
   });

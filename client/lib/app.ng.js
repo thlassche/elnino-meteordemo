@@ -1,11 +1,11 @@
-angular.module('vegasParties',[
+angular.module('elninoMeteorDemo',[
   'angular-meteor',
   'ui.router',
   'ngMaterial'
 ]);
 
 function onReady() {
-  angular.bootstrap(document, ['vegasParties'], {strictDi: true});
+  angular.bootstrap(document, ['elninoMeteorDemo'], {strictDi: true});
 }
 
 if (Meteor.isCordova)
