@@ -2,7 +2,11 @@ angular.module('elninoMeteorDemo',[
   'angular-meteor',
   'ui.router',
   'ngMaterial'
-]);
+]).config(function($mdThemingProvider) {
+  $mdThemingProvider.theme('default')
+    .primaryPalette('blue')
+    .accentPalette('blue');
+});
 
 function onReady() {
   angular.bootstrap(document, ['elninoMeteorDemo'], {strictDi: true});

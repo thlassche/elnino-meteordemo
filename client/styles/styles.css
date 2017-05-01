@@ -9,6 +9,13 @@ md-content.main {
   background-color: #edecec !important;
 }
 
+.logo {
+  width: 100px;
+  padding-top: 30px;
+  margin: 0 auto;
+  display: block;
+}
+
 .w-100 {
   width: 100%;
 }
