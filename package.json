@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Urigo/ng-vegas-first-example.git"
+    "url": "git+https://github.com/thlassche/elnino-meteordemo.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Urigo/ng-vegas-first-example/issues"
+    "url": "https://github.com/thlassche/elnino-meteordemo.git/issues"
   },
-  "homepage": "https://github.com/Urigo/ng-vegas-first-example#readme"
+  "homepage": "https://github.com/thlassche/elnino-meteordemo.git#readme"
 }
