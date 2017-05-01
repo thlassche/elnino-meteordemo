@@ -1,0 +1,23 @@
+{
+  "name": "elnino-meteordemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-runtime": "^6.23.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urigo/ng-vegas-first-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Urigo/ng-vegas-first-example/issues"
+  },
+  "homepage": "https://github.com/Urigo/ng-vegas-first-example#readme"
+}

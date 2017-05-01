@@ -1,0 +1,7 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": "mongodb://admin:c7WwBy3oMvn9OacI@meteorjs-shard-00-00-rsnnq.mongodb.net:27017,meteorjs-shard-00-01-rsnnq.mongodb.net:27017,meteorjs-shard-00-02-rsnnq.mongodb.net:27017/meteor?ssl=true&replicaSet=MeteorJS-shard-0&authSource=admin"
+    }
+  }
+}
